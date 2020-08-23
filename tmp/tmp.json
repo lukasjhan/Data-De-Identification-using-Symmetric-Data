@@ -1,0 +1,179 @@
+{
+    "meta": {
+        "num_tuples": 49,
+        "num_attributes": 4,
+        "num_attributes_in_BN": 4,
+        "all_attributes": [
+            "sex",
+            "age",
+            "loc",
+            "salary"
+        ],
+        "candidate_keys": [],
+        "non_categorical_string_attributes": [],
+        "attributes_in_BN": [
+            "age",
+            "salary",
+            "loc",
+            "sex"
+        ]
+    },
+    "attribute_description": {
+        "sex": {
+            "name": "sex",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 1,
+            "max": 1,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "F",
+                "M"
+            ],
+            "distribution_probabilities": [
+                0.38493685688366547,
+                0.6150631431163346
+            ]
+        },
+        "age": {
+            "name": "age",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 2,
+            "max": 2,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                20,
+                21,
+                22,
+                23,
+                24,
+                26,
+                27,
+                28,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                38,
+                41,
+                42,
+                43,
+                47,
+                48,
+                52,
+                53
+            ],
+            "distribution_probabilities": [
+                0.015206035006380776,
+                0.01156828509830404,
+                0.0,
+                0.02503849748567849,
+                0.0,
+                0.09421221437804932,
+                0.1577835890098878,
+                0.0,
+                0.053697023926299714,
+                0.00950999857692448,
+                0.013191668541196749,
+                0.11953194727442609,
+                0.0,
+                0.0,
+                0.0,
+                0.06672808547994434,
+                0.05291537390514488,
+                0.08329037123467865,
+                0.19088768042106624,
+                0.05586359144569495,
+                0.0,
+                0.050575638216323514
+            ]
+        },
+        "loc": {
+            "name": "loc",
+            "data_type": "String",
+            "is_categorical": true,
+            "is_candidate_key": false,
+            "min": 2,
+            "max": 2,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                "\uac15\uc6d0",
+                "\uacbd\uae30",
+                "\uacbd\uc0c1",
+                "\uc11c\uc6b8",
+                "\uc778\ucc9c",
+                "\uc804\ub77c",
+                "\uc81c\uc8fc",
+                "\ucda9\uccad"
+            ],
+            "distribution_probabilities": [
+                0.0,
+                0.13062303299104178,
+                0.0,
+                0.5813729650207318,
+                0.05431783343191737,
+                0.0,
+                0.0,
+                0.2336861685563091
+            ]
+        },
+        "salary": {
+            "name": "salary",
+            "data_type": "Integer",
+            "is_categorical": false,
+            "is_candidate_key": false,
+            "min": 1000,
+            "max": 4500,
+            "missing_rate": 0.0,
+            "distribution_bins": [
+                1000.0,
+                1175.0,
+                1350.0,
+                1525.0,
+                1700.0,
+                1875.0,
+                2050.0,
+                2225.0,
+                2400.0,
+                2575.0,
+                2750.0,
+                2925.0,
+                3100.0,
+                3275.0,
+                3450.0,
+                3625.0,
+                3800.0,
+                3975.0,
+                4150.0,
+                4325.0
+            ],
+            "distribution_probabilities": [
+                0.005844401640329016,
+                0.052293185693613235,
+                0.0,
+                0.047198472294352437,
+                0.0490664218757892,
+                0.055673956387341836,
+                0.39762928071789905,
+                0.09272959485574277,
+                0.0,
+                0.0,
+                0.09729907837035541,
+                0.0,
+                0.08019656724988276,
+                0.0822526543171999,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.039816386597494306,
+                0.0
+            ]
+        }
+    }
+}
